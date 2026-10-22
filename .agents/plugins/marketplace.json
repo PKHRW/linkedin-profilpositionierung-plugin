@@ -1,0 +1,20 @@
+{
+  "name": "pw-team-plugins",
+  "interface": {
+    "displayName": "PW Team Plugins"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-profilpositionierung-team",
+      "source": {
+        "source": "local",
+        "path": "./plugins/linkedin-profilpositionierung-team"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
