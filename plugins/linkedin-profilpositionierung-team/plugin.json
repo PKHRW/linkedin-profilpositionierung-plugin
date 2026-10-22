@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "linkedin-profilpositionierung-team",
+  "version": "1.0.0",
+  "description": "Erstellt strategisch passende LinkedIn Profilslogans und ausführliche Infobeschreibungen für Inhaber, Geschäftsführer, Versicherungsagenturen und Experten.",
+  "author": {
+    "name": "Philipp Wegner"
+  },
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "LinkedIn Profilpositionierung",
+        "shortDescription": "Profilslogan und Infobeschreibung mit Conversion-Fokus",
+        "longDescription": "Positioniert Personen als Unternehmensgesicht, Fachexperten oder in einer passenden Kombination und erstellt daraus einen Profilslogan sowie eine vollständige LinkedIn Infobeschreibung.",
+        "developerName": "Philipp Wegner",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "defaultPrompt": [
+          "Nutze $linkedin-profilpositionierung für diesen Kunden und erstelle Profilslogan sowie Infobeschreibung.",
+          "Analysiere diese Kundenwebsite und entwickle eine passende LinkedIn Profilpositionierung."
+        ]
+      }
+    }
+  }
+}
