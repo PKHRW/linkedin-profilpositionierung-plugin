@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Profilpositionierung"
+  short_description: "Positionierung und Profiltexte mit Conversion-Fokus"
+  default_prompt: "Nutze $linkedin-profilpositionierung, um auf Basis aktueller LinkedIn Marketingprinzipien einen Profilslogan und eine überzeugende Infobeschreibung für diesen Kunden zu erstellen."
